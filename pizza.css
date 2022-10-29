@@ -1,0 +1,486 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #242424;
+}
+
+@font-face {
+    font-family: "Grifter";
+    src: url("fonts/grifterbold.otf");
+}
+
+header{
+    margin: 0 0 50px 0;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/pizza-with-salami-tomatoes-olives-cheese-dough-with-whole-wheat-flour-italian-food_2829-6855.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410");
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.brand {
+    color: #fff;
+    background: #e2a706;
+    padding: 5px 10px 15px 100px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-family: Montserrat;
+}
+
+.nav-links a:hover {
+    color: #ffbb00;
+}
+
+.center-badge {
+    position: absolute;
+    background: #e2a706;
+    height: 130px;
+    width: 100%;
+    top: 50%;
+}
+
+.badge-text {
+    position: absolute;
+    color: #fff;
+    top: 55%;
+    width: 80%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-family: Montserrat;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.normal {
+    font-family: Montserrat;
+    font-size: 4.5em;
+    line-height: 43px
+}
+
+.scnd {
+    display: flex;
+    align-items: center;
+}
+
+.read-more {
+    background: #e2a706;
+    color: #fff;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 10px 10px 25px;
+    margin: 0 0 0 70px;
+}
+
+.read-more:hover {
+    font-weight: bold;
+    border: 2px solid #e2a706;
+    color: #e2a706;
+    background: #fff;
+    outline: 1px solid white;
+}
+
+.new-features {
+    height: 350px;
+    position: relative;
+}
+
+.left-container-text {
+    position: absolute;
+    width: 50%;
+    height: 95px;
+    background: #f8ba0e;
+    left: 10%;
+    top: 25%;
+    z-index: 1;
+}
+
+.pizza-right {
+    position: absolute;
+    height: 80%;
+    width: 48%;
+    background: rgb(10, 10, 10);
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/premium-photo/pizza-with-cheese-pineapple-chicken-dark-background_210632-4219.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410");
+    transform: rotate(180deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features-text {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    z-index: 2;
+    line-height: 2;
+    top: 14%;
+    left: 17%;
+}
+
+.features-head {
+    font-size: 18px;
+}
+.features-list {
+    margin-top: 8px;
+}
+
+.features {
+    background: #fff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-content {
+    width: 25%;
+    font-family: Montserrat;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.features-body {
+    margin-top: 10px;
+}
+
+.fts-head {
+    color: #f8ba0e;
+    font-weight: bold;
+}
+
+.menu {
+    height: 550px;
+    background: rgb(10, 10, 10);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/chicken-pizza-with-bell-peppers-tomato-cheese-round-wooden-board_140725-10493.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-title,.menu-header {
+    color: #ebad03;
+    
+}
+
+.menu-title {
+    padding-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.header-border {
+    border: 1px solid #fff;
+    height: 50px;
+    padding: 5px 0 60px 20%;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+}
+
+.menu-header {
+    font-size: 35px;
+}
+
+.menu-background {
+    position: relative;
+    color: #fff;
+    background: #ebad03;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    height: 200px;
+}
+
+.menu-items {
+    width: 70%;
+    padding-left: 20px;
+}
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    width: 30%;
+    z-index: 1;
+}
+
+.menu-items h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.label {
+    position: absolute;
+    background: #ffbb00;
+    width: 30px;
+    height: 90%;
+    right: 25%;
+}
+
+.pizzas {
+    display: flex;
+    height: 150px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.training {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/male-hand-spreading-tomato-puree-pizza-base-with-spoon-old-wooden-background-cooking-concept-close-up_639032-439.jpg?size=626&ext=jpg&uid=R82368049&ga=GA1.2.315292422.1666221410&semt=sph");
+  position: relative;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.box,.training-header {
+    position: absolute;
+    right: 20%;
+    color: #fff;
+}
+.box {
+    width: 20%;
+    top: 20%;
+}
+
+.training-header {
+    top: 10%;
+    font-size: 20px;
+}
+
+.training-box {
+    background: #ebad03;
+    padding: 42px 42px 21px 42px;
+}
+
+.training-body h3{
+    font-size: 23px;
+}
+
+.training-body > p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.price-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.training-apply {
+    display: block;
+    background: #ebad03;
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px 15px 13px;
+    cursor: pointer;
+    margin-top: 30px;
+    float: right;
+}
+
+.gallery-title {
+    color: #ebad03;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.gallery {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2px;
+}
+
+.gallery-images div {
+    width: 33.1%;
+}
+
+.gallery-images div img {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-label {
+    position: absolute;
+    background: #ebad03;
+    width: 150px;
+    height: 100%;
+    z-index: -1;
+    left: 25%;
+}
+
+.gallery-brand {
+    height: 100px;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    display: flex;
+    align-items: end;
+}
+ 
+.gallery-footer {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.left-footer {
+    width: 50%;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+#author {
+    float: right;
+}
+
+.right-footer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socials div {
+    width: 15%;
+    margin-top: 5px;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.bi-icon {
+    width: 30px;
+    height: 30px;
+}
+.site {
+    margin-top: 20px;
+}
+
+.yellow {
+    color: #ebad03;
+}
+
+.white {
+    color: #fff;
+}
+
+footer {
+    background: #473709;
+    height: 200px;
+}
+
+.footer-contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-top: 50px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.footer-left div{
+    padding-top: 10px;
+    
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer-right div{
+    flex: 1;
+    min-width: 33.3%;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.menu-body {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ 
+.menu-body div{
+   width: 33.3%;
+}
+
+.img2 {
+    transform: rotate(90deg);
+}
